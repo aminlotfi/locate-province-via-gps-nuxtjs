@@ -1,7 +1,11 @@
 <template>
-  <Tutorial/>
+  <drop-box />
 </template>
 
 <script>
-export default {}
+import DropBox from "../components/DropBox";
+
+export default {
+  components: {DropBox}
+}
 </script>

@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "name": "آذربایجان شرقی",
+    "nameEN": "East Azerbaijan",
+    "slug": "آذربایجان-شرقی"
+  },
+  {
+    "id": 2,
+    "name": "آذربایجان غربی",
+    "nameEN": "West Azerbaijan",
+    "slug": "آذربایجان-غربی"
+  },
+  {
+    "id": 3,
+    "name": "اردبیل",
+    "nameEN": "Ardabil",
+    "slug": "اردبیل"
+  },
+  {
+    "id": 4,
+    "name": "اصفهان",
+    "nameEN": "Isfahan",
+    "slug": "اصفهان"
+  },
+  {
+    "id": 5,
+    "name": "البرز",
+    "nameEN": "Alborz",
+    "slug": "البرز"
+  },
+  {
+    "id": 6,
+    "name": "ایلام",
+    "nameEN": "Ilam",
+    "slug": "ایلام"
+  },
+  {
+    "id": 7,
+    "name": "بوشهر",
+    "nameEN": "Bushehr",
+    "slug": "بوشهر"
+  },
+  {
+    "id": 8,
+    "name": "تهران",
+    "nameEN": "Tehran",
+    "slug": "تهران"
+  },
+  {
+    "id": 9,
+    "name": "چهارمحال و بختیاری",
+    "nameEN": "Chaharmahal and Bakhtiyari",
+    "slug": "چهارمحال-بختیاری"
+  },
+  {
+    "id": 10,
+    "name": "خراسان جنوبی",
+    "nameEN": "South Khorasan",
+    "slug": "خراسان-جنوبی"
+  },
+  {
+    "id": 11,
+    "name": "خراسان رضوی",
+    "nameEN": "Razavi Khorasan",
+    "slug": "خراسان-رضوی"
+  },
+  {
+    "id": 12,
+    "name": "خراسان شمالی",
+    "nameEN": "North Khorasan",
+    "slug": "خراسان-شمالی"
+  },
+  {
+    "id": 13,
+    "name": "خوزستان",
+    "nameEN": "Khuzestan",
+    "slug": "خوزستان"
+  },
+  {
+    "id": 14,
+    "name": "زنجان",
+    "nameEN": "Zanjan",
+    "slug": "زنجان"
+  },
+  {
+    "id": 15,
+    "name": "سمنان",
+    "nameEN": "Semnan",
+    "slug": "سمنان"
+  },
+  {
+    "id": 16,
+    "name": "سیستان و بلوچستان",
+    "nameEN": "Sistan and Baluchestan",
+    "slug": "سیستان-بلوچستان"
+  },
+  {
+    "id": 17,
+    "name": "فارس",
+    "nameEN": "Fars",
+    "slug": "فارس"
+  },
+  {
+    "id": 18,
+    "name": "قزوین",
+    "nameEN": "Qazvin",
+    "slug": "قزوین"
+  },
+  {
+    "id": 19,
+    "name": "قم",
+    "nameEN": "Qom",
+    "slug": "قم"
+  },
+  {
+    "id": 20,
+    "name": "کردستان",
+    "nameEN": "Kurdistan",
+    "slug": "کردستان"
+  },
+  {
+    "id": 21,
+    "name": "کرمان",
+    "nameEN": "Kerman",
+    "slug": "کرمان"
+  },
+  {
+    "id": 22,
+    "name": "کرمانشاه",
+    "nameEN": "Kermanshah",
+    "slug": "کرمانشاه"
+  },
+  {
+    "id": 23,
+    "name": "کهگیلویه و بویراحمد",
+    "nameEN": "Kohgiluye and Buyer Ahmad",
+    "slug": "کهگیلویه-بویراحمد"
+  },
+  {
+    "id": 24,
+    "name": "گلستان",
+    "nameEN": "Golestan",
+    "slug": "گلستان"
+  },
+  {
+    "id": 25,
+    "name": "لرستان",
+    "nameEN": "Lorestan",
+    "slug": "لرستان"
+  },
+  {
+    "id": 26,
+    "name": "گیلان",
+    "nameEN": "Gilan",
+    "slug": "گیلان"
+  },
+  {
+    "id": 27,
+    "name": "مازندران",
+    "nameEN": "Mazandaran",
+    "slug": "مازندران"
+  },
+  {
+    "id": 28,
+    "name": "مرکزی",
+    "nameEN": "Markazi",
+    "slug": "مرکزی"
+  },
+  {
+    "id": 29,
+    "name": "هرمزگان",
+    "nameEN": "Hormozgan",
+    "slug": "هرمزگان"
+  },
+  {
+    "id": 30,
+    "name": "همدان",
+    "nameEN": "Hamadan",
+    "slug": "همدان"
+  },
+  {
+    "id": 31,
+    "name": "یزد",
+    "nameEN": "Yazd",
+    "slug": "یزد"
+  }
+]
