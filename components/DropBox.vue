@@ -58,13 +58,11 @@ export default {
       const token = 'pk.f4fabe5ca406ac6668c2a26520b328e7'
       const lat = pos.coords.latitude.toString();
       const lng = pos.coords.longitude.toString();
-      // const lat = '35.7029075622558';
-      // const lng = '51.3497581481933';
       const url = `https://us1.locationiq.com/v1/reverse.php?format=json&key=${token}&lat=${lat}&lon=${lng}`
       fetch(url)
-        .then((resp) => {
-          if (!resp.ok) throw new Error(resp.statusText);
-          return resp.json();
+        .then((res) => {
+          if (!res.ok) throw new Error(res.statusText);
+          return res.json();
         })
         .then((data) => {
           console.log(data.address.state?.replace('Province', ' ').trim() || data.address.province?.replace('Province', ' ').trim())
@@ -107,7 +105,6 @@ export default {
   align-items: start;
   justify-content: space-between;
   max-height: 300px;
-  /*transform: translateY(-150px);*/
 }
 
 .city {
@@ -120,7 +117,6 @@ export default {
     margin-top: 50px;
   }
 }
-
 
 select {
   width: 350px;
