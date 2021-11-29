@@ -94,7 +94,7 @@ export default {
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     font-family: Vazir;
     font-size: 2rem;
