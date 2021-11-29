@@ -1,5 +1,7 @@
 <template>
-  <drop-box />
+  <div class="container">
+    <drop-box />
+  </div>
 </template>
 
 <script>
@@ -9,3 +11,12 @@ export default {
   components: {DropBox}
 }
 </script>
+
+<style scoped>
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+</style>

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Vazir';
+  src: url('https://cdn.nobitex.ir/fonts/Vazir/Vazir.woff2') format('woff2'),
+  url('https://cdn.nobitex.ir/fonts/Vazir/Vazir.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  direction: rtl;
+  background-image: linear-gradient(to right bottom, #36d1dc, #5b86e5);
+  background-repeat: no-repeat;
+  height: 100vh;
+}

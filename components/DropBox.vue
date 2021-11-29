@@ -1,11 +1,19 @@
 <template>
   <div class="container">
-    <select v-model="province">
-      <option v-for="province in provincesItem" :key="province.id" :value="province.id">{{ province.name }}</option>
-    </select>
-    <select v-model="city">
-      <option v-for="city in citiesItem" :key="city.id" :value="city.id">{{ city.name }}</option>
-    </select>
+    <div class="province">
+      <label>استان</label>
+      <select v-model="province">
+        <option value="" selected disabled hidden>انتخاب کنید...</option>
+        <option v-for="province in provincesItem" :key="province.id" :value="province.id">{{ province.name }}</option>
+      </select>
+    </div>
+    <div class="city">
+      <label>شهر</label>
+      <select v-model="city">
+        <option value="" selected disabled hidden>انتخاب کنید...</option>
+        <option v-for="city in citiesItem" :key="city.id" :value="city.id">{{ city.name }}</option>
+      </select>
+    </div>
   </div>
 </template>
 
@@ -75,17 +83,50 @@ export default {
 
 <style scoped>
 .container {
-  max-width: 500px;
-  width: 100%;
-  margin: 5rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  direction: rtl;
+  font-family: Vazir;
+  font-size: 2rem;
 }
 
+@media (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Vazir;
+    font-size: 2rem;
+  }
+}
+
+.province, .city {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  max-height: 300px;
+  /*transform: translateY(-150px);*/
+}
+
+.city {
+  margin-right: 50px;
+}
+
+@media (max-width: 900px) {
+  .city {
+    margin-right: 0;
+    margin-top: 50px;
+  }
+}
+
+
 select {
-  width: 200px;
-  height: 40px;
+  width: 350px;
+  height: 60px;
+  font-family: Vazir;
+  font-size: 1.2rem;
+  overflow-y: auto;
 }
 </style>
